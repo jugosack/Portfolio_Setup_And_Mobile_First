@@ -36,7 +36,7 @@
 
 
 
-# 📖 [Hello_Microverse_Project] <a name="about-project"></a>
+# 📖 [Portfolio_Setup_And_Mobile_First] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -183,9 +183,9 @@ Example:
 
 👤 **Jugoslav Achkoski*
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jugosack)
+- Twitter: [@twitterhandle](https://twitter.com/Jugosla22401325)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jugoslav-achkoski-3a074021/?originalSubdomain=mk)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
