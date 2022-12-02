@@ -297,6 +297,7 @@ body {
 .works__card__topics__text {
   padding: 4px 12px;
   border-radius: 8px;
+  list-style: none;
 }
 
 .works__card__btn .btn {
