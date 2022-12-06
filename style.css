@@ -965,6 +965,7 @@ body {
     height: 170px;
   }
 
+
   #get-intouch {
     width: 135px;
     font-family: 'Poppins', sans-serif;
@@ -979,5 +980,19 @@ body {
     color: #6070ff;
     border: 1px solid white;
     border-radius: 6px;
+  }
+
+  #msg:hover,
+  #name:hover,
+  #mail:hover {
+    border: 3px solid green;
+  }
+
+  #get-intouch:hover {
+    border: 3px solid blue;
+  }
+
+  #get-intouch:active {
+    color: green;
   }
 }
