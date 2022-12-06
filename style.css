@@ -884,6 +884,7 @@ body {
 
   .contact-page {
     display:flex;
+    border-radius: 65px 0 0 0;
    flex-direction: column;
     background-image: url('./img/contact--mobile.png');
     width: 100%;
@@ -959,5 +960,20 @@ width: 300px;
   #msg{
     /* Container */
   height: 170px;
+  }
+  #get-intouch {
+    width: 135px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+    border: 1px solid white;
+    border-radius: 6px;
   }
 }
