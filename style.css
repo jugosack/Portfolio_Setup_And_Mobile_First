@@ -882,6 +882,7 @@ body {
     width: 65%;
   }
 }
+
 .contact-page {
   display: flex;
   border-radius: 65px 0 0 0;
@@ -964,7 +965,6 @@ color: #FFFFFF;
   /* Container */
   height: 170px;
 }
-
 
 #get-intouch {
   width: 135px;
