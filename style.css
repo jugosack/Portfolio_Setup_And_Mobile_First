@@ -955,6 +955,7 @@ body {
 #msg {
   /* Container */
   height: 170px;
+  padding-top: 10px;
 }
 
 #msg:hover,
