@@ -10,8 +10,12 @@
 body,
 h1,
 h2,
-h3,
-p {
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+flex>p {
   margin: 0;
   padding: 0;
 }
@@ -895,11 +899,11 @@ body {
   border-radius: 65px 0 0 0;
 }
 
-.contact-page > p {
+.contact_p {
   /* Primary Text */
   width: 327px;
   height: 102px;
-  margin: 10 10 10 20;
+  margin-left: 27px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -912,6 +916,8 @@ body {
   /* Primary/B50 */
   color: #ebebff;
 }
+
+
 
 .contactme {
   width: 90%;
