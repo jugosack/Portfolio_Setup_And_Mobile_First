@@ -15,7 +15,7 @@ h3 {
   padding: 0;
 }
 
-flex>p {
+.flex > p {
   margin: 0;
   padding: 0;
 }
@@ -917,8 +917,6 @@ body {
   color: #ebebff;
 }
 
-
-
 .contactme {
   width: 90%;
   font-weight: 700;
@@ -929,14 +927,13 @@ body {
   padding: 70px 10px 20px 10px;
 }
 
-
-
 .formsection {
   padding: 25% 10% 10% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 #name,
 #mail,
 #msg {
