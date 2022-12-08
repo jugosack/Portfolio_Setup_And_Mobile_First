@@ -233,6 +233,9 @@ body {
 .head__title {
   color: #172b4d;
   width: 10ch;
+  animation-name: rotate_title;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
 }
 
 .head__title span {
@@ -606,6 +609,15 @@ body {
   to {
     transform: scale(1) rotate(720deg) translateX(0);
   }
+}
+@keyframes rotate_title{
+  70% {
+    transform: scale(1.5) rotate(180deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+}
 }
 
 @media (max-width: 992px) {
