@@ -718,7 +718,8 @@ body {
 
   .works__card__text {
     padding: 1rem;
-    /*add margin from code reviewer*/
+
+    /* add margin from code reviewer */
     margin-top: -80px;
   }
 
@@ -901,9 +902,9 @@ body {
   border-radius: 65px 0 0 0;
 }
 
-/*add image for desktop screen*/
-@media(min-width:768px){
-  .contact-page{
+/* add image for desktop screen */
+@media (min-width: 768px) {
+  .contact-page {
     background-image: url("./images/contact-bg.png");
   }
 }
