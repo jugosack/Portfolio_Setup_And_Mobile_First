@@ -899,6 +899,13 @@ body {
   border-radius: 65px 0 0 0;
 }
 
+/*add image for desktop screen*/
+@media(min-width:768px){
+  .contact-page{
+    background-image: url("./images/contact-bg.png");
+  }
+}
+
 .contact_p {
   /* Primary Text */
   width: 327px;
