@@ -15,6 +15,11 @@ h3 {
   padding: 0;
 }
 
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 .flex > p {
   margin: 0;
   padding: 0;
@@ -81,11 +86,6 @@ body {
   font-size: 32px;
 }
 
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -104,7 +104,8 @@ p {
   }
 }
 
-.contactme, .about__title {
+.contactme,
+.about__title {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -274,8 +275,8 @@ p {
   color: #172b4d;
   width: 10ch;
   animation-name: rotate_title;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
 }
 
 .head__title span {
@@ -650,14 +651,15 @@ p {
     transform: scale(1) rotate(720deg) translateX(0);
   }
 }
-@keyframes rotate_title{
+
+@keyframes rotate_title {
   70% {
     transform: scale(1.5) rotate(180deg) translateX(-50%);
   }
 
   to {
     transform: scale(1) rotate(720deg) translateX(0);
-}
+  }
 }
 
 @media (max-width: 992px) {
