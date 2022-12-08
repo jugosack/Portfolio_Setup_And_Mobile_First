@@ -917,9 +917,9 @@ body {
   color: #ebebff;
 }
 
-/*Add media for contact_p*/
-@media (min-width:768px){
-  .contact_p{
+/* Add media for contact_p */
+@media (min-width: 768px) {
+  .contact_p {
     width: 550px;
     margin: auto;
   }
@@ -935,11 +935,12 @@ body {
   padding: 70px 10px 20px 10px;
 }
 
-/*add media for contactme */
-@media (min-width:768px){
-  .contactme{
-margin-left:50px;
-/*
+/* add media for contactme */
+@media (min-width: 768px) {
+  .contactme {
+    margin-left: 50px;
+
+    /*
 width: 90%;
   font-weight: 700;
   font-size: 40px;
@@ -958,9 +959,9 @@ width: 90%;
   justify-content: center;
 }
 
-/*add media form section*/
-@media(min-width:768px){
-  .formsection{
+/* add media form section */
+@media (min-width: 768px) {
+  .formsection {
     padding: 3% 10% 10% 10%;
   }
 }
@@ -994,14 +995,18 @@ width: 90%;
 #mail:hover {
   border: 3px solid green;
 }
-/*add media name message e-mail*/
-@media(min-width:768px){
-  #msg,#name,#mail{
+
+/* add media name message e-mail */
+@media (min-width: 768px) {
+  #msg,
+  #name,
+  #mail {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 #get-intouch {
   width: 135px;
   font-family: 'Poppins', sans-serif;
@@ -1017,8 +1022,9 @@ width: 90%;
   border: 1px solid white;
   border-radius: 6px;
 }
-/*add media button*/
-@media(min-width:768px){
+
+/* add media button */
+@media (min-width: 768px) {
   #get-intouch {
     margin: auto;
   }
@@ -1031,5 +1037,3 @@ width: 90%;
 #get-intouch:active {
   color: green;
 }
-
-
